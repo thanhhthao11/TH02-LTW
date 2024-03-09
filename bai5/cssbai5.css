@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+.container{
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.header{
+    display: flex;
+    color: gray;
+    font-size: 30px;
+}
+i{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: gray;
+}
+#iuser{
+    margin-left: -70px;
+    padding-top: 15px;
+}
+#username{
+    background-color: rgb(51, 50, 50);
+    height: 80px;
+    width: 550px;
+    border-radius: 5%;
+    font-size: 20px;
+    color: white;
+}
+.form{
+    display: flex;
+}
+#password{
+    background-color: rgb(51, 50, 50);
+    height: 80px;
+    width: 550px;
+    border-radius: 5%;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+#pass{
+    margin-left: -70px;
+    padding-top: 15px;
+}
+.right{
+    margin-top: -40px;
+}
+button{
+    height: 200px;
+    margin-left: 30px;
+    background-color: red;
+}
+#locket{
+    color: white;
+}
