@@ -1,0 +1,53 @@
+/*Định dạng CSS cho khung liên hệ*/
+#container 
+    {
+    width: 950px;
+    margin: 0 auto;
+    }
+#header {
+    background: rgb(254, 254, 254);
+    margin-bottom: 10px;
+    border-bottom: 2px solid red;
+    padding: 10px;
+    }
+.lh{
+    color: #210ddd;
+}
+.left {
+        float: left;
+        width: 200px;
+        background: #fffefe;
+        padding: 10px;
+        min-height: 450px;
+        }
+.left p{
+    padding-top: 20px;
+    color: grey;
+}
+.right
+        {
+        float: right;
+        width: 700px;
+        background: #ffffff;
+        padding: 10px;
+        min-height: 450px;
+        }
+        .tag
+        {
+        float: right;
+        width: 700px;
+        background: #210ddd;
+        padding: 10px;
+        min-height: 450px;
+        }
+input{
+    width: 500px;
+    vertical-align: top;
+}
+
+button{
+    background-color: rgb(110, 195, 218);
+    color: white;
+    height: 40px;
+    border: none;
+}
