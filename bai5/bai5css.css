@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+  font-family: Arial, sans-serif;
+}
+.login-form {
+  width: 300px;
+  margin: 100px auto;
+  background: #444;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.input-group .icon {
+  float: right;
+  padding: 10px;
+  background: none;
+  color: white;
+  border-radius: 5px;
+}
+.input-group .icon:hover {
+  cursor: pointer;
+}
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  color: white;
+}

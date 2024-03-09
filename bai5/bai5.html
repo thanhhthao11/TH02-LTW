@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #333;
+  font-family: Arial, sans-serif;
+}
+.login-container {
+  width: 340px;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin: 100px auto;
+  border-radius: 5px;
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Added margin for spacing between inputs */
+}
+.input-group .icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.btn {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  float: right; /* Aligns the button to the right */
+}
+.btn .lock-icon {
+  margin-right: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Login</h2>
+  <div class="input-group">
+    <input type="text" value="saigon">
+    <span class="icon">👤</span>
+  </div>
+  <div class="input-group">
+    <input type="password" placeholder="••••••">
+    <span class="icon">🔒</span>
+    <span class="icon">👁</span>
+  </div>
+</div>
+
+<div class="clearfix">
+  <button class="btn">
+    <span class="lock-icon">🔒</span>
+  </button>
+</div>
+
+</body>
+</html>
