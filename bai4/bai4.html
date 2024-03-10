@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssbai4.css"> 
+    <title>tính chỉ số BMI</title>
+</head>
+<body>
+    <div class="background-image">
+    <div class="container">
+        <h1>Tính Chỉ Số BMI</h1>
+        <div>
+            <label for="inputWeight">Nhập cân nặng ? (kg):</label>
+            <input type="number" id="inputWeight">
+        </div>
+        <div>
+            <label for="inputHeight">Nhập chiều cao ? (m):</label>
+            <input type="number" id="inputHeight">
+        </div>
+        <label for="loai-tuoi">Chọn loại tuổi?</label>
+        <br>
+        <select id="loai-tuoi" name="loai-tuoi">
+          <option value="trung-nien">Trung niên</option>
+          <option value="trung-nien, gia-lon-tuoi">Trung niên, Già lớn tuổi</option>
+          <option value="gia-lon-tuoi">Già, lớn tuổi</option>
+        </select>
+        <br>
+        <br>
+        <button onclick="calculateBMI()">Tính BMI</button>
+        <div id="result"></div>
+    </div>
+</div>
+    <script src="javascript4.js"></script>
+</body>
+</html>
