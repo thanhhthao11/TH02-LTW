@@ -1,6 +1,6 @@
 .body
 {
-    background: url('../Bài\ 6/image/1.png');
+    background: url('image/1.png');
     background-size: cover;
 }
 #wrapper
@@ -14,7 +14,7 @@
 {
     width: 30%;
     height:450px;
-    background: url('../Bài\ 6/image/2.png' );
+    background: url('image/2.png' );
     padding: 30px 30px 40px;
     box-shadow:0px 0px 17px 2px white;
 }
